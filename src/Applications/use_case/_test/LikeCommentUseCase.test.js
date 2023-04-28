@@ -146,10 +146,6 @@ describe("LikeCommentUseCase", () => {
 			commentId: "comment-123"
 		};
 		const userId = "user-123";
-		const mockThread = {
-			id: useCasePayload.threadId,
-			owner: userId
-		};
 
 		// Create dependency of use case
 		const mockLikeRepository = new LikeRepository();
