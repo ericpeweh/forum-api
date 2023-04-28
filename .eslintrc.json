@@ -10,14 +10,7 @@
 		"ecmaVersion": "latest"
 	},
 	"rules": {
-		"indent": [
-			"error",
-			"space",
-			{
-				"SwitchCase": 1,
-				"ignoredNodes": ["ConditionalExpression"]
-			}
-		],
+		"indent": "off",
 		"quotes": ["error", "double"],
 		"semi": ["error", "always"],
 		"no-unused-vars": "warn",
